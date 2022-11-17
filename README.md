@@ -18,17 +18,4 @@ I used the book "Fixed Income Securities" by Pietro Veronesi to test my code.
   
   -American
   
-  
-  
-Finally, I wanted to try to draw graphs.
-It was painful but very satisfying in the end. 
-
-I hope this will be useful. 
-Any feedback are welcome
-
-Enjoy
-
-Jules
-  
-  
 
