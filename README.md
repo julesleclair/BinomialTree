@@ -7,15 +7,15 @@
           i.e. use vectorisation instead of double loop!
 
 
--Short Interest Rate model: (In Progress)
-  -Ho-Lee model (rewritting Theta Calibration)
-  -Black-Derman-Toy model (rewritting Theta Calibration)
-  Comment: Trying to make tree more efficient
+-Short Interest Rate model: 
+  -Ho-Lee model (HoLee Class)
+  -Black-Derman-Toy model (BlackDermanToy Class)
   
-  
-  -Caps (~EU CALL)
-  -Floors (~EU PUTS)
-  -Swap
+  - Option IR  
+    -Caps (~EU CALL)
+    -Floors (~EU PUTS)
+    -Swap
+    -Swaption
   
 How to use:
   - Check notebook CRR_implementation.ipynb for full example
@@ -29,4 +29,11 @@ How to use:
       - first method keeps tree branch proportional to price / rate etc..
       - second method is more aesthetic and keep tree branch distances
       equal. (up move = down move)
-
+  - short_interest_rate.py
+    - HoLee model
+    - simple BlackDermanToy model 
+    - Option_IR: 
+      - Cap
+      - Floor
+      - Swap
+      - Swaption (~European call)
